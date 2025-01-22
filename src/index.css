@@ -1,0 +1,169 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.container {
+  position: absolute;
+  left: 30%;
+  top: 13%;
+  object-fit: contain;
+  width: 82px;
+  background-color: rgb(187, 179, 179);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.img {
+  width: 80px;
+  border-radius: 3px;
+}
+
+.muestra {
+  position: absolute;
+  left: 120%;
+  top: 0.8%;
+  width: 300px;
+  height: 429px;
+  background-color: rgb(187, 179, 179);
+  border-radius: 4px;
+}
+
+.pintur {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border-radius: 6px;
+}
+
+.contenedortallas {
+  display: flex;
+  width: 200px;
+  height: 150px;
+  gap: 15px;
+  top: 60%;
+  position: absolute;
+  left: 450%;
+}
+
+.tallas {
+  text-align: center;
+  width: 35px;
+  height: 20px;
+}
+
+.btn {
+  background-color: rgb(67, 53, 194);
+  color: aliceblue;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 455%;
+  top: 80%;
+  border-radius: 4px;
+}
+.ropa {
+  position: absolute;
+  left: 460%;
+  width: 100px;
+  color: blue;
+}
+
+.saco {
+  position: absolute;
+  left: 460%;
+  width: 150px;
+  top: 22%;
+}
+
+.tallas:hover {
+  background-color: rgb(10, 10, 10);
+  color: aliceblue;
+}
+.carrito {
+  position: absolute;
+  left: 70%;
+  top: 8%;
+}
+
+.cantidad {
+  position: absolute;
+  left: 72%;
+  top: 8%;
+}
+
+.precio {
+  position: absolute;
+  left: 61%;
+  top: 45%;
+}
+
+.acomulado {
+  position: absolute;
+  left: 61%;
+  top: 83%;
+}
